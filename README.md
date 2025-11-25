@@ -5,7 +5,11 @@
   <p align="center">
     👋 <b>Hi there! I am Kamal Sayed.</b><br>
     I am a Computer Science student at <b>Bfcai University</b> with <b>3+ years of experience</b> in Front-End Engineering.<br>
-    I am passionate about bridging the gap between intuitive UI and powerful server-side logic. throughout my career, I have built a diverse range of projects across several domains, including <b>economic, personal, and medical applications.</b>
+    Passionate about bridging the gap between intuitive UI and powerful server-side logic.
+  </p>
+
+  <p align="center">
+    I have built a diverse range of projects across several domains, including economic, personal, and medical applications. My goal is to expand my skills into Back-End development to become a comprehensive Full-Stack Developer.
   </p>
 
   <p align="center">
@@ -14,14 +18,6 @@
     <a href="https://linkedin.com/in/kamal-sayed-82ba2b335"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
     <a href="mailto:kk1412ec4869@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" alt="Email"/></a>
   </p>
-
-  <div align="center">
-    <a href="https://github.com/ryo-ma/github-profile-trophy">
-      <img src="https://github-profile-trophy.vercel.app/?username=kamalSayed2004&theme=radical&no-frame=true&no-bg=true&margin-w=4" alt="Trophies" />
-    </a>
-    <br/>
-    <img src="https://komarev.com/ghpvc/?username=kamalSayed2004&style=flat-square&color=blueviolet" alt="Profile View Counter" />
-  </div>
 
 </div>
 
@@ -78,7 +74,16 @@
 
 ---
 
-### 📊 GitHub Stats
+### 🏆 Achievements
+<div align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=kamalSayed2004&theme=radical&no-frame=true&no-bg=true&margin-w=4" alt="Trophies" />
+  </a>
+</div>
+
+---
+
+### 📊 GitHub Analytics
 
 <div align="center">
 
@@ -93,21 +98,25 @@
 
 <br><br>
 
-<img src="https://github-contributor-stats.vercel.app/api?username=kamalSayed2004&limit=5&theme=dark&combine_all_yearly_contributions=true" alt="Top Contributed" />
+<img src="https://raw.githubusercontent.com/kamalSayed2004/kamalSayed2004/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
 
 <br><br>
 
-<img src="https://raw.githubusercontent.com/kamalSayed2004/kamalSayed2004/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
+<img src="https://github-contributor-stats.vercel.app/api?username=kamalSayed2004&limit=5&theme=dark&combine_all_yearly_contributions=true" alt="Top Contributed Repo" />
 
 </div>
 
 ---
 
+### ✍️ Random Dev Quote
 <div align="center">
-  <h3>✍️ Random Dev Quote</h3>
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random Dev Quote" />
-  
-  <br><br>
-  
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
+</div>
+
+<br/>
+
+<div align="center">
+  <a href="https://visitcount.itsvg.in">
+    <img src="https://visitcount.itsvg.in/api?id=kamalSayed2004&icon=0&color=0" alt="Visitor Count" />
+  </a>
 </div>
