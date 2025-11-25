@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=20C20E&center=true&vCenter=true&width=435&lines=Front-End+Engineer+%F0%9F%92%BB;CS+Student+%40+Bfcai+University+%F0%9F%8E%93;Aspiring+Full-Stack+Developer+%F0%9F%9A%80;Building+Robust+Web+Solutions" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=20C20E&center=true&vCenter=true&width=435&lines=Front-End+Engineer+%F0%9F%92%BB;CS+Student+%40+Bfcai+University+%F0%9F%8E%93;Aspiring+Full-Stack+Developer+%F0%9F%9A%80;Building+Robust+Web+Solutions" alt="Typing SVG" />
 
   <p align="center">
     👋 <b>Hi there! I am Kamal Sayed.</b><br>
