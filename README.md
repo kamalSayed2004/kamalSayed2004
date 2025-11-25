@@ -91,8 +91,8 @@
 <div align="center">
 
 <a href="https://github.com/kamalSayed2004">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=kamalSayed2004&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=false" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kamalSayed2004&layout=compact&theme=dark&hide_border=true" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=kamalSayed2004&show_icons=true&theme=dark&hide_border=true&count_private=false" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kamalSayed2004&layout=compact&theme=dark&hide_border=true" />
 </a>
 
 <br><br>
