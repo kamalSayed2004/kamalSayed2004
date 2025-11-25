@@ -1,61 +1,103 @@
-# 💫 About Me
-
-I am currently studying Computer Science at Bfcai University. I work as a Front-End Engineer with over three years of experience and a strong passion for expanding my skills into Back-End development. Throughout my career, I have built a diverse range of projects across economic, personal, and medical domains.
-
 <div align="center">
 
-[https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Front-End+Engineer;Back-End+Developer+in+Progress;3%2B+Years+Experience;Always+Learning+New+Tech](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Front-End+Engineer;Back-End+Developer+in+Progress;3%2B+Years+Experience;Always+Learning+New+Tech)
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=20C20E&center=true&vCenter=true&width=435&lines=Front-End+Engineer+%F0%9F%92%BB;CS+Student+%40+Bfcai+University+%F0%9F%8E%93;Aspiring+Full-Stack+Developer+%F0%9F%9A%80;Building+Robust+Web+Solutions" alt="Typing SVG" />
 
-</div>
+  <p align="center">
+    👋 <b>Hi there! I am Kamal Sayed.</b><br>
+    I am a Computer Science student with <b>3+ years of experience</b> in Front-End Engineering.<br>
+    Passionate about bridging the gap between intuitive UI and powerful server-side logic.
+  </p>
 
-## 🌐 Socials
-
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord\&logoColor=white)](https://discord.gg/kamal2004_) [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook\&logoColor=white)](https://facebook.com/kamalsayedkamal2004) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin\&logoColor=white)](https://linkedin.com/in/kamal-sayed-82ba2b335) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail\&logoColor=white)](mailto:kk1412ec4869@gmail.com)
-
-# 💻 Tech Stack
-
-*(Your tech stack badges remain the same — consider wrapping them in a scroll animation section if you want more effects.)*
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=kamalSayed2004&theme=dark&hide_border=false&include_all_commits=true&count_private=false" />
-
-<img src="https://nirzak-streak-stats.vercel.app/?user=kamalSayed2004&theme=dark&hide_border=false" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kamalSayed2004&theme=dark&hide_border=false&layout=compact" />
+  <p align="center">
+    <a href="https://discord.gg/kamal2004_"><img src="https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white" alt="Discord"/></a>
+    <a href="https://facebook.com/kamalsayedkamal2004"><img src="https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white" alt="Facebook"/></a>
+    <a href="https://linkedin.com/in/kamal-sayed-82ba2b335"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+    <a href="mailto:kk1412ec4869@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" alt="Email"/></a>
+  </p>
 
 </div>
 
 ---
 
-### ✍️ Random Dev Quote
+### 💻 Tech Stack
 
 <div align="center">
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
+
+**Front-End & UI**<br>
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB)
+![Next JS](https://img.shields.io/badge/Next-black?style=flat&logo=next.js&logoColor=white)
+![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=flat&logo=redux&logoColor=white)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=flat&logo=react-router&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=flat&logo=tailwind-css&logoColor=white)
+![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=flat&logo=SASS&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=flat&logo=bootstrap&logoColor=white)
+![Semantic UI React](https://img.shields.io/badge/Semantic%20UI%20React-%2335BDB2.svg?style=flat&logo=SemanticUIReact&logoColor=white)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=flat&logo=vite&logoColor=white)
+
+<br>
+
+**Back-End & Data Science**<br>
+![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat&logo=node.js&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi)
+![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=flat&logo=mysql&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-black?style=flat&logo=JSON%20web%20tokens)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=flat&logo=TensorFlow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=flat&logo=Keras&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat&logo=scikit-learn&logoColor=white)
+
+<br>
+
+**Tools & DevOps**<br>
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white)
+![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=flat&logo=gnu-bash&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=Cloudflare&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
+![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=flat&logo=npm&logoColor=white)
+![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=flat&logo=adobe%20photoshop&logoColor=white)
+
 </div>
 
 ---
 
-### 🔝 Top Contributed Repo
+### 📊 GitHub Stats
 
 <div align="center">
-<img src="https://github-contributor-stats.vercel.app/api?username=kamalSayed2004&limit=5&theme=dark&combine_all_yearly_contributions=true" />
+
+<a href="https://github.com/kamalSayed2004">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=kamalSayed2004&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=false" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kamalSayed2004&layout=compact&theme=dark&hide_border=true" />
+</a>
+
+<br><br>
+
+<img src="https://nirzak-streak-stats.vercel.app/?user=kamalSayed2004&theme=dark&hide_border=true" alt="Streak Stats" />
+
+<br>
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random Dev Quote" />
+
 </div>
 
 ---
 
 <div align="center">
-
-### 👁️ Visitor Count
-
-<img src="https://visitcount.itsvg.in/api?id=kamalSayed2004&icon=0&color=0" />
-
+  <h3>🏆 Top Contribution</h3>
+  <img src="https://github-contributor-stats.vercel.app/api?username=kamalSayed2004&limit=5&theme=dark&combine_all_yearly_contributions=true" />
+  
+  <br><br>
+  
+  <a href="https://visitcount.itsvg.in">
+    <img src="https://visitcount.itsvg.in/api?id=kamalSayed2004&icon=0&color=0" />
+  </a>
+  
+  <br>
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 </div>
-
----
-
-*Enhanced with animation ✔️*
