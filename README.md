@@ -4,7 +4,7 @@
 
   <p align="center">
     👋 <b>Hi there! I am Kamal Sayed.</b><br>
-    I am a Computer Science student with <b>3+ years of experience</b> in Front-End Engineering.<br>
+    I am a Computer Science student at <b>Bfcai University</b> with <b>3+ years of experience</b> in Front-End Engineering.<br>
     Passionate about bridging the gap between intuitive UI and powerful server-side logic.
   </p>
 
@@ -32,6 +32,7 @@
 ![Next JS](https://img.shields.io/badge/Next-black?style=flat&logo=next.js&logoColor=white)
 ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=flat&logo=redux&logoColor=white)
 ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=flat&logo=react-router&logoColor=white)
+![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-%23EC5990.svg?style=flat&logo=reacthookform&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=flat&logo=tailwind-css&logoColor=white)
 ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=flat&logo=SASS&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=flat&logo=bootstrap&logoColor=white)
@@ -62,6 +63,7 @@
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
 ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=flat&logo=npm&logoColor=white)
 ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=flat&logo=adobe%20photoshop&logoColor=white)
+![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=flat&logo=markdown&logoColor=white)
 
 </div>
 
@@ -79,6 +81,10 @@
 <br><br>
 
 <img src="https://nirzak-streak-stats.vercel.app/?user=kamalSayed2004&theme=dark&hide_border=true" alt="Streak Stats" />
+
+<br>
+
+<img src="https://raw.githubusercontent.com/kamalSayed2004/kamalSayed2004/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
 
 <br>
 
