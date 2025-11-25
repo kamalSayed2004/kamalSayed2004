@@ -86,19 +86,20 @@
 
 <img src="https://raw.githubusercontent.com/kamalSayed2004/kamalSayed2004/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
 
-<br>
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random Dev Quote" />
-
 </div>
 
 ---
 
 <div align="center">
-  <h3>🏆 Top Contribution</h3>
-  <img src="https://github-contributor-stats.vercel.app/api?username=kamalSayed2004&limit=5&theme=dark&combine_all_yearly_contributions=true" />
-  
-  <br><br>
+  <h3>🏆 Achievements</h3>
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=kamalSayed2004&theme=radical&no-frame=true&no-bg=true&margin-w=4" alt="Trophies" />
+  </a>
+</div>
+
+<br/>
+
+<div align="center">
   
   <img src="https://komarev.com/ghpvc/?username=kamalSayed2004&style=flat-square&color=blueviolet" alt="Profile View Counter" />
   
