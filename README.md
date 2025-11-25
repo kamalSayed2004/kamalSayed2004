@@ -5,7 +5,7 @@
   <p align="center">
     👋 <b>Hi there! I am Kamal Sayed.</b><br>
     I am a Computer Science student at <b>Bfcai University</b> with <b>3+ years of experience</b> in Front-End Engineering.<br>
-    Passionate about bridging the gap between intuitive UI and powerful server-side logic.
+    I am passionate about bridging the gap between intuitive UI and powerful server-side logic. throughout my career, I have built a diverse range of projects across several domains, including <b>economic, personal, and medical applications.</b>
   </p>
 
   <p align="center">
@@ -14,6 +14,14 @@
     <a href="https://linkedin.com/in/kamal-sayed-82ba2b335"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
     <a href="mailto:kk1412ec4869@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" alt="Email"/></a>
   </p>
+
+  <div align="center">
+    <a href="https://github.com/ryo-ma/github-profile-trophy">
+      <img src="https://github-profile-trophy.vercel.app/?username=kamalSayed2004&theme=radical&no-frame=true&no-bg=true&margin-w=4" alt="Trophies" />
+    </a>
+    <br/>
+    <img src="https://komarev.com/ghpvc/?username=kamalSayed2004&style=flat-square&color=blueviolet" alt="Profile View Counter" />
+  </div>
 
 </div>
 
@@ -52,6 +60,7 @@
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat&logo=scikit-learn&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=flat&logo=Matplotlib&logoColor=black)
 
 <br>
 
@@ -82,7 +91,11 @@
 
 <img src="https://nirzak-streak-stats.vercel.app/?user=kamalSayed2004&theme=dark&hide_border=true" alt="Streak Stats" />
 
-<br>
+<br><br>
+
+<img src="https://github-contributor-stats.vercel.app/api?username=kamalSayed2004&limit=5&theme=dark&combine_all_yearly_contributions=true" alt="Top Contributed" />
+
+<br><br>
 
 <img src="https://raw.githubusercontent.com/kamalSayed2004/kamalSayed2004/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
 
@@ -91,18 +104,10 @@
 ---
 
 <div align="center">
-  <h3>🏆 Achievements</h3>
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=kamalSayed2004&theme=radical&no-frame=true&no-bg=true&margin-w=4" alt="Trophies" />
-  </a>
-</div>
-
-<br/>
-
-<div align="center">
-  
-  <img src="https://komarev.com/ghpvc/?username=kamalSayed2004&style=flat-square&color=blueviolet" alt="Profile View Counter" />
+  <h3>✍️ Random Dev Quote</h3>
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random Dev Quote" />
   
   <br><br>
+  
   <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 </div>
