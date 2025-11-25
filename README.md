@@ -12,6 +12,8 @@
     I have built a diverse range of projects across several domains, including economic, personal, and medical applications. My goal is to expand my skills into Back-End development to become a comprehensive Full-Stack Developer.
   </p>
 
+  <h3>Connect with me</h3>
+
   <p align="center">
     <a href="https://discord.gg/kamal2004_"><img src="https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white" alt="Discord"/></a>
     <a href="https://facebook.com/kamalsayedkamal2004"><img src="https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white" alt="Facebook"/></a>
@@ -75,6 +77,7 @@
 ---
 
 ### 🏆 Achievements
+
 <div align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
     <img src="https://github-profile-trophy.vercel.app/?username=kamalSayed2004&theme=radical&no-frame=true&no-bg=true&margin-w=4" alt="Trophies" />
@@ -109,6 +112,7 @@
 ---
 
 ### ✍️ Random Dev Quote
+
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
 </div>
