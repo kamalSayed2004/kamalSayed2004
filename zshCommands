@@ -1,0 +1,131 @@
+🚀 Full Zsh Setup Guide (Fedora & Ubuntu)
+Includes: ZDOTDIR, Oh-My-Zsh, Powerlevel10k, FiraMono Nerd Font, Autosuggestions, Syntax Highlighting, fzf, fzf-tab
+
+==============================
+1️⃣ Install Zsh
+==============================
+Fedora
+sudo dnf install zsh
+
+Ubuntu
+sudo apt update
+sudo apt install zsh
+==============================
+2️⃣ Set Zsh as your default shell
+==============================
+chsh -s /bin/zsh
+
+Log out & back in.
+==============================
+3️⃣ Create ZDOTDIR directory structure
+==============================
+mkdir -p ~/.config/zsh
+==============================
+4️⃣ Redirect Zsh to use ZDOTDIR (~/.zshrc loader)
+==============================
+cat > ~/.zshrc << 'EOF'
+export ZDOTDIR="$HOME/.config/zsh"
+source "$ZDOTDIR/.zshrc"
+EOF
+==============================
+5️⃣ Install FiraMono Nerd Font (for Powerlevel10k)
+==============================
+Fedora
+sudo dnf install fira-code-fonts
+sudo dnf install fira-mono-fonts
+
+Ubuntu
+sudo apt install fonts-firacode
+
+For Nerd Font version (recommended for icons)
+mkdir -p ~/.local/share/fonts
+cd ~/.local/share/fonts
+wget https://github.com/ryanoasis/nerd-fonts/releases/latest/download/FiraMono.zip
+unzip FiraMono.zip
+fc-cache -fv
+
+Then select FiraMono Nerd Font in your terminal emulator.
+==============================
+6️⃣ Install Oh-My-Zsh into ZDOTDIR
+git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.config/zsh/oh-my-zsh
+==============================
+7️⃣ Install Powerlevel10k
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git \
+  ~/.config/zsh/oh-my-zsh/custom/themes/powerlevel10k
+==============================
+8️⃣ Install Zsh plugins
+Syntax Highlighting
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git \
+  ~/.config/zsh/oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+
+Autosuggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions \
+  ~/.config/zsh/oh-my-zsh/custom/plugins/zsh-autosuggestions
+
+fzf-tab
+git clone https://github.com/Aloxaf/fzf-tab \
+  ~/.config/zsh/oh-my-zsh/custom/plugins/fzf-tab
+==============================
+9️⃣ Install fzf
+Fedora
+sudo dnf install fzf
+
+Ubuntu
+sudo apt install fzf
+
+Optional: Latest GitHub version (recommended)
+
+git clone --depth 1 https://github.com/junegunn/fzf ~/.local/share/fzf
+~/.local/share/fzf/install --no-bash --no-fish
+mv ~/.fzf.zsh ~/.config/zsh/
+==============================
+🔟 Create full config: ~/.config/zsh/.zshrc
+cat > ~/.config/zsh/.zshrc << 'EOF'
+# Set ZDOTDIR
+export ZDOTDIR="$HOME/.config/zsh"
+
+# Oh-My-Zsh directory
+export ZSH="$ZDOTDIR/oh-my-zsh"
+
+# Theme
+ZSH_THEME="powerlevel10k/powerlevel10k"
+
+# Plugins
+plugins=(
+  git
+  zsh-autosuggestions
+  zsh-syntax-highlighting
+  fzf-tab
+)
+
+# Load Oh-My-Zsh
+source $ZSH/oh-my-zsh.sh
+
+# Load fzf (system)
+[ -f /usr/share/fzf/shell/key-bindings.zsh ] && source /usr/share/fzf/shell/key-bindings.zsh
+[ -f /usr/share/fzf/shell/completion.zsh ] && source /usr/share/fzf/shell/completion.zsh
+
+# Load fzf (GitHub install)
+[ -f "$ZDOTDIR/.fzf.zsh" ] && source "$ZDOTDIR/.fzf.zsh"
+
+# fzf default options
+export FZF_DEFAULT_OPTS="--height=40% --layout=reverse --border"
+
+# fzf-tab configuration
+zstyle ':fzf-tab:*' fzf-preview 'cat $realpath'
+zstyle ':fzf-tab:*' fzf-flags --height=40% --layout=reverse --border
+
+# Fix syntax highlighting load order
+# Must be loaded at the end
+source $ZSH/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+EOF
+==============================
+1️⃣1️⃣ Restart Zsh
+exec zsh
+==============================
+
+Powerlevel10k will ask configuration questions — select:
+
+✔ FiraMono Nerd Font
+✔ Recommended settings
