@@ -129,3 +129,6 @@ Powerlevel10k will ask configuration questions — select:
 
 ✔ FiraMono Nerd Font
 ✔ Recommended settings
+==============================
+to show the window maximize, minimize, close buttons use this command
+gsettings set org.gnome.desktop.wm.preferences button-layout ':minimize,maximize,close'
