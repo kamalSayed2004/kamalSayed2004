@@ -132,3 +132,42 @@ Powerlevel10k will ask configuration questions — select:
 ==============================
 to show the window maximize, minimize, close buttons use this command
 gsettings set org.gnome.desktop.wm.preferences button-layout ':minimize,maximize,close'
+==============================
+sudo dnf install gnome-tweaks
+# VLC
+sudo dnf install vlc -y
+# Postman (via Snap)
+sudo snap install postman
+# LibreOffice
+sudo dnf install libreoffice -y
+# Extension Manager (GNOME extensions GUI)
+sudo dnf install gnome-extensions-app -y
+# Snapper (command-line snapshots)
+sudo dnf install snapper -y
+
+# Snapper GUI
+sudo dnf install snapper-gui -y
+
+# GParted (GUI partition editor)
+sudo dnf install gparted -y
+# KeePassXC (recommended over KeePass)
+sudo dnf install keepassxc -y
+# Zeal (offline documentation)
+sudo dnf install zeal -y
+# Brave
+sudo dnf install dnf-plugins-core -y
+sudo dnf config-manager --add-repo https://brave-browser-rpm-release.s3.brave.com/x86_64/
+sudo rpm --import https://brave-browser-rpm-release.s3.brave.com/brave-core.asc
+sudo dnf install brave-browser -y
+
+# Google Chrome
+sudo dnf install https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm -y
+sudo dnf update -y
+sudo dnf install dnf-plugins-core -y
+sudo dnf install git -y
+sudo dnf install zeal -y
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
+sudo dnf check-update
+sudo dnf install code -y
+sudo snap install postman
