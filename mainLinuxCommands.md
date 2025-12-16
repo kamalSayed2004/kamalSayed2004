@@ -3,12 +3,13 @@
 **Systems:** Fedora (Primary) & Ubuntu (Shell Support)
 **Shell:** Zsh + Oh-My-Zsh + Powerlevel10k + fzf (Tab-enabled)
 
----
-
+```
 ## 1️⃣ Shell Environment Setup
-
+```
 ### 1. Install Zsh & Utilities
+```
 **Fedora:**
+
 ```bash
 sudo dnf install zsh fzf util-linux-user -y
 
