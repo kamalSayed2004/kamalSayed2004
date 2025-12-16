@@ -7,9 +7,8 @@
 
 ## 1️⃣ Shell Environment Setup
 ### 1. Install Zsh & Utilities
-```
+
 **Fedora:**
-```
 ```bash
 sudo dnf install zsh fzf util-linux-user -y
 
