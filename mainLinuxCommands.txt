@@ -1,173 +1,265 @@
-🚀 Full Zsh Setup Guide (Fedora & Ubuntu)
-Includes: ZDOTDIR, Oh-My-Zsh, Powerlevel10k, FiraMono Nerd Font, Autosuggestions, Syntax Highlighting, fzf, fzf-tab
+```markdown
+# 🚀 Ultimate Workstation Setup Guide
+**Systems:** Fedora (Primary) & Ubuntu (Shell Support)
+**Shell:** Zsh + Oh-My-Zsh + Powerlevel10k + fzf (Tab-enabled)
 
-==============================
-1️⃣ Install Zsh
-==============================
-Fedora
-sudo dnf install zsh
+---
 
-Ubuntu
-sudo apt update
-sudo apt install zsh
-==============================
-2️⃣ Set Zsh as your default shell
-==============================
+## 1️⃣ Shell Environment Setup
+
+### 1. Install Zsh & Utilities
+**Fedora:**
+```bash
+sudo dnf install zsh fzf util-linux-user -y
+
+```
+
+**Ubuntu:**
+
+```bash
+sudo apt update && sudo apt install zsh fzf -y
+
+```
+
+### 2. Set Zsh as Default
+
+```bash
 chsh -s /bin/zsh
+# Note: A logout/login is required for this to take full effect, but you can proceed with the setup.
 
-Log out & back in.
-==============================
-3️⃣ Create ZDOTDIR directory structure
-==============================
+```
+
+### 3. Configure Directory Hygiene (ZDOTDIR)
+
+Keep your home directory clean by forcing Zsh config into `~/.config/zsh`.
+
+```bash
 mkdir -p ~/.config/zsh
-==============================
-4️⃣ Redirect Zsh to use ZDOTDIR (~/.zshrc loader)
-==============================
+
+# Create the loader file in Home
 cat > ~/.zshrc << 'EOF'
 export ZDOTDIR="$HOME/.config/zsh"
 source "$ZDOTDIR/.zshrc"
 EOF
-==============================
-5️⃣ Install FiraMono Nerd Font (for Powerlevel10k)
-==============================
-Fedora
-sudo dnf install fira-code-fonts
-sudo dnf install fira-mono-fonts
 
-Ubuntu
-sudo apt install fonts-firacode
+```
 
-For Nerd Font version (recommended for icons)
+### 4. Install Fonts (FiraMono Nerd Font)
+
+Required for Powerlevel10k icons.
+
+**Method A: Package Manager**
+
+* **Fedora:** `sudo dnf install fira-code-fonts fira-mono-fonts -y`
+* **Ubuntu:** `sudo apt install fonts-firacode -y`
+
+**Method B: Manual (Recommended for full icon support)**
+
+```bash
 mkdir -p ~/.local/share/fonts
 cd ~/.local/share/fonts
-wget https://github.com/ryanoasis/nerd-fonts/releases/latest/download/FiraMono.zip
+wget [https://github.com/ryanoasis/nerd-fonts/releases/latest/download/FiraMono.zip](https://github.com/ryanoasis/nerd-fonts/releases/latest/download/FiraMono.zip)
 unzip FiraMono.zip
 fc-cache -fv
+# ⚠️ Action: Set "FiraMono Nerd Font" in your terminal settings.
 
-Then select FiraMono Nerd Font in your terminal emulator.
-==============================
-6️⃣ Install Oh-My-Zsh into ZDOTDIR
-git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.config/zsh/oh-my-zsh
-==============================
-7️⃣ Install Powerlevel10k
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git \
+```
+
+### 5. Install Oh-My-Zsh & Plugins
+
+Clone these into the `ZDOTDIR` structure.
+
+**Oh-My-Zsh:**
+
+```bash
+git clone [https://github.com/ohmyzsh/ohmyzsh.git](https://github.com/ohmyzsh/ohmyzsh.git) ~/.config/zsh/oh-my-zsh
+
+```
+
+**Powerlevel10k Theme:**
+
+```bash
+git clone --depth=1 [https://github.com/romkatv/powerlevel10k.git](https://github.com/romkatv/powerlevel10k.git) \
   ~/.config/zsh/oh-my-zsh/custom/themes/powerlevel10k
-==============================
-8️⃣ Install Zsh plugins
-Syntax Highlighting
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git \
-  ~/.config/zsh/oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 
-Autosuggestions
-git clone https://github.com/zsh-users/zsh-autosuggestions \
+```
+
+**Plugins (Autosuggestions, Syntax Highlighting, fzf-tab):**
+
+```bash
+git clone [https://github.com/zsh-users/zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) \
   ~/.config/zsh/oh-my-zsh/custom/plugins/zsh-autosuggestions
 
-fzf-tab
-git clone https://github.com/Aloxaf/fzf-tab \
+git clone [https://github.com/zsh-users/zsh-syntax-highlighting.git](https://github.com/zsh-users/zsh-syntax-highlighting.git) \
+  ~/.config/zsh/oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+
+git clone [https://github.com/Aloxaf/fzf-tab](https://github.com/Aloxaf/fzf-tab) \
   ~/.config/zsh/oh-my-zsh/custom/plugins/fzf-tab
-==============================
-9️⃣ Install fzf
-Fedora
-sudo dnf install fzf
 
-Ubuntu
-sudo apt install fzf
+```
 
-Optional: Latest GitHub version (recommended)
+### 6. Install FZF (Latest Script)
 
-git clone --depth 1 https://github.com/junegunn/fzf ~/.local/share/fzf
+Ensures you have the latest binary features.
+
+```bash
+git clone --depth 1 [https://github.com/junegunn/fzf](https://github.com/junegunn/fzf) ~/.local/share/fzf
 ~/.local/share/fzf/install --no-bash --no-fish
 mv ~/.fzf.zsh ~/.config/zsh/
-==============================
-🔟 Create full config: ~/.config/zsh/.zshrc
-cat > ~/.config/zsh/.zshrc << 'EOF'
-# Set ZDOTDIR
-export ZDOTDIR="$HOME/.config/zsh"
 
-# Oh-My-Zsh directory
+```
+
+---
+
+## 2️⃣ The Configuration File (`.zshrc`)
+
+Run this block to create your production config. **This includes the specific settings to make TAB trigger fzf.**
+
+```bash
+cat > ~/.config/zsh/.zshrc << 'EOF'
+# --- SYSTEM PATHS ---
+export ZDOTDIR="$HOME/.config/zsh"
 export ZSH="$ZDOTDIR/oh-my-zsh"
 
-# Theme
+# --- THEME ---
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
-# Plugins
+# --- PLUGINS ---
 plugins=(
   git
   zsh-autosuggestions
   zsh-syntax-highlighting
-  fzf-tab
+  fzf-tab 
 )
 
-# Load Oh-My-Zsh
+# --- LOAD OH-MY-ZSH ---
 source $ZSH/oh-my-zsh.sh
 
-# Load fzf (system)
+# --- FZF CONFIGURATION (SYSTEM) ---
+# Load system key bindings if they exist
 [ -f /usr/share/fzf/shell/key-bindings.zsh ] && source /usr/share/fzf/shell/key-bindings.zsh
 [ -f /usr/share/fzf/shell/completion.zsh ] && source /usr/share/fzf/shell/completion.zsh
 
-# Load fzf (GitHub install)
+# --- FZF CONFIGURATION (USER) ---
+# Load local fzf if installed via git
 [ -f "$ZDOTDIR/.fzf.zsh" ] && source "$ZDOTDIR/.fzf.zsh"
 
-# fzf default options
+# Default Style
 export FZF_DEFAULT_OPTS="--height=40% --layout=reverse --border"
 
-# fzf-tab configuration
-zstyle ':fzf-tab:*' fzf-preview 'cat $realpath'
-zstyle ':fzf-tab:*' fzf-flags --height=40% --layout=reverse --border
+# --- FZF-TAB CONFIGURATION (TAB TRIGGERS) ---
+# Disable default fzf completion trigger to avoid conflicts
+export FZF_COMPLETION_TRIGGER=''
 
-# Fix syntax highlighting load order
-# Must be loaded at the end
+# Force fzf-tab to override standard completion
+# Use 'cat' for preview (fastest). Use 'less' or 'bat' if preferred.
+zstyle ':fzf-tab:complete:*:*' fzf-preview 'cat $realpath'
+zstyle ':fzf-tab:complete:*:*' fzf-flags --height=40% --layout=reverse --border
+
+# Switch result groups using comma and period
+zstyle ':fzf-tab:*' switch-group ',' '.'
+
+# --- FINAL LOAD ---
+# Syntax highlighting must be loaded last
 source $ZSH/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
 EOF
-==============================
-1️⃣1️⃣ Restart Zsh
+
+```
+
+**Finalize Shell:**
+
+```bash
 exec zsh
-==============================
+# Follow the Powerlevel10k configuration prompts.
 
-Powerlevel10k will ask configuration questions — select:
+```
 
-✔ FiraMono Nerd Font
-✔ Recommended settings
-==============================
-to show the window maximize, minimize, close buttons use this command
+---
+
+## 3️⃣ System & BIOS Maintenance (Fedora/Ubuntu)
+
+### Update BIOS / Firmware
+
+**Warning:** Ensure your laptop is plugged into power before running these.
+
+```bash
+# 1. Refresh firmware metadata from LVFS
+sudo fwupdmgr refresh
+
+# 2. Check for available updates
+sudo fwupdmgr get-updates
+
+# 3. Install updates (System will likely prompt to reboot)
+sudo fwupdmgr update
+
+```
+
+### Desktop Customization (GNOME)
+
+```bash
+# Set Window Controls (Minimize, Maximize, Close)
 gsettings set org.gnome.desktop.wm.preferences button-layout ':minimize,maximize,close'
-==============================
-sudo dnf install gnome-tweaks
-# VLC
-sudo dnf install vlc -y
-# Postman (via Snap)
-sudo snap install postman
-# LibreOffice
-sudo dnf install libreoffice -y
-# Extension Manager (GNOME extensions GUI)
-sudo dnf install gnome-extensions-app -y
-# Snapper (command-line snapshots)
-sudo dnf install snapper -y
 
-# Snapper GUI
-sudo dnf install snapper-gui -y
+# Install Tweaks & Extensions Tool
+sudo dnf install gnome-tweaks gnome-extensions-app -y
 
-# GParted (GUI partition editor)
-sudo dnf install gparted -y
-# KeePassXC (recommended over KeePass)
-sudo dnf install keepassxc -y
-# Zeal (offline documentation)
-sudo dnf install zeal -y
+```
+
+---
+
+## 4️⃣ Application Provisioning (Fedora)
+
+### System Utilities
+
+```bash
+sudo dnf install dnf-plugins-core git -y
+
+# Snap Support (Required for Postman)
+sudo dnf install snapd -y
+sudo ln -s /var/lib/snapd/snap /snap
+# Start Snap service
+sudo systemctl enable --now snapd.socket
+
+```
+
+### Web Browsers
+
+```bash
 # Brave
-sudo dnf install dnf-plugins-core -y
-sudo dnf config-manager --add-repo https://brave-browser-rpm-release.s3.brave.com/x86_64/
-sudo rpm --import https://brave-browser-rpm-release.s3.brave.com/brave-core.asc
+sudo dnf config-manager --add-repo [https://brave-browser-rpm-release.s3.brave.com/x86_64/](https://brave-browser-rpm-release.s3.brave.com/x86_64/)
+sudo rpm --import [https://brave-browser-rpm-release.s3.brave.com/brave-core.asc](https://brave-browser-rpm-release.s3.brave.com/brave-core.asc)
 sudo dnf install brave-browser -y
 
 # Google Chrome
-sudo dnf install https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm -y
-sudo dnf update -y
-sudo dnf install dnf-plugins-core -y
-sudo dnf install git -y
-sudo dnf install zeal -y
-sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
-sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
+sudo dnf install [https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm](https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm) -y
+
+```
+
+### Developer Tools
+
+```bash
+# Visual Studio Code
+sudo rpm --import [https://packages.microsoft.com/keys/microsoft.asc](https://packages.microsoft.com/keys/microsoft.asc)
+sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=[https://packages.microsoft.com/yumrepos/vscode](https://packages.microsoft.com/yumrepos/vscode)\nenabled=1\ngpgcheck=1\ngpgkey=[https://packages.microsoft.com/keys/microsoft.asc](https://packages.microsoft.com/keys/microsoft.asc)" > /etc/yum.repos.d/vscode.repo'
 sudo dnf check-update
 sudo dnf install code -y
+
+# Postman (via Snap)
 sudo snap install postman
+
+```
+
+### Productivity & Tools
+
+```bash
+# Media & Office
+sudo dnf install vlc libreoffice -y
+
+# Security & Docs
+sudo dnf install keepassxc zeal -y
+
+# Disk Management
+sudo dnf install gparted -y
+sudo dnf install snapper snapper-gui -y
+
+```
