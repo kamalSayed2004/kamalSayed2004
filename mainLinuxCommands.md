@@ -225,9 +225,7 @@ sudo systemctl enable --now snapd.socket
 
 ```bash
 # Brave
-sudo dnf config-manager --add-repo [https://brave-browser-rpm-release.s3.brave.com/x86_64/](https://brave-browser-rpm-release.s3.brave.com/x86_64/)
-sudo rpm --import [https://brave-browser-rpm-release.s3.brave.com/brave-core.asc](https://brave-browser-rpm-release.s3.brave.com/brave-core.asc)
-sudo dnf install brave-browser -y
+curl -fsS https://dl.brave.com/install.sh | sh
 
 # Google Chrome
 sudo dnf install [https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm](https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm) -y
