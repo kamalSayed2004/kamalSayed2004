@@ -58,11 +58,11 @@ EOF
 source ~/.zshrc
 ```
 
-## download fira fonts, enter the directory after extraction then do the next command:
+## download MesloLGS NF, enter the directory after extraction then do the next command:
 
 ```bash
-sudo mkdir -p /usr/share/fonts/fira
-sudo cp *.ttf /usr/share/fonts/fira/
+sudo mkdir -p /usr/share/fonts/mesloGS
+sudo cp *.ttf /usr/share/fonts/mesloGS
 sudo fc-cache -f -v
 
 ```
