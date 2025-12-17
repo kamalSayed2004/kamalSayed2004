@@ -110,7 +110,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Load FZF (Fuzzy Finder) system-wide integrations
 source /usr/share/fzf/shell/key-bindings.zsh
-source /etc/bash_completion.d/fzf
+source /usr/share/fzf/completion.zsh
 
 # Load Autosuggestions
 source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
