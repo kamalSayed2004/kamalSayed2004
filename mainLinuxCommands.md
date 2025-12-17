@@ -1,36 +1,17 @@
-# 🚀 Ultimate Workstation Setup Guide
-**Systems:** Fedora (Primary) & Ubuntu (Shell Support)
-**Shell:** Zsh + Oh-My-Zsh + Powerlevel10k + fzf (Tab-enabled)
+# This is a Linux guide for important scripts
 
+## installing zsh with utilities
 
-
-## 1️⃣ Shell Environment Setup
-### 1. Install Zsh & Utilities
-
-**Fedora:**
 ```bash
 sudo dnf install zsh fzf util-linux-user -y
 
 ```
-
-**Ubuntu:**
-
-```bash
-sudo apt update && sudo apt install zsh fzf -y
-
-```
-
-### 2. Set Zsh as Default
 
 ```bash
 chsh -s /bin/zsh
 # Note: A logout/login is required for this to take full effect, but you can proceed with the setup.
 
 ```
-
-### 3. Configure Directory Hygiene (ZDOTDIR)
-
-Keep your home directory clean by forcing Zsh config into `~/.config/zsh`.
 
 ```bash
 mkdir -p ~/.config/zsh
@@ -43,76 +24,39 @@ EOF
 
 ```
 
-### 4. Install Fonts (FiraMono Nerd Font)
-
-Required for Powerlevel10k icons.
-
-**Method A: Package Manager**
-
-* **Fedora:** `sudo dnf install fira-code-fonts fira-mono-fonts -y`
-* **Ubuntu:** `sudo apt install fonts-firacode -y`
-
-**Method B: Manual (Recommended for full icon support)**
+```bash
+sudo dnf install fira-code-fonts fira-mono-fonts -y
+```
 
 ```bash
-mkdir -p ~/.local/share/fonts
-cd ~/.local/share/fonts
-wget [https://github.com/ryanoasis/nerd-fonts/releases/latest/download/FiraMono.zip](https://github.com/ryanoasis/nerd-fonts/releases/latest/download/FiraMono.zip)
-unzip FiraMono.zip
-fc-cache -fv
-# ⚠️ Action: Set "FiraMono Nerd Font" in your terminal settings.
+git clone [https://github.com/ohmyzsh/ohmyzsh.git] https://github.com/ohmyzsh/ohmyzsh.git ~/.config/zsh/oh-my-zsh
 
 ```
 
-### 5. Install Oh-My-Zsh & Plugins
-
-Clone these into the `ZDOTDIR` structure.
-
-**Oh-My-Zsh:**
-
 ```bash
-git clone [https://github.com/ohmyzsh/ohmyzsh.git](https://github.com/ohmyzsh/ohmyzsh.git) ~/.config/zsh/oh-my-zsh
-
-```
-
-**Powerlevel10k Theme:**
-
-```bash
-git clone --depth=1 [https://github.com/romkatv/powerlevel10k.git](https://github.com/romkatv/powerlevel10k.git) \
+git clone --depth=1 [https://github.com/romkatv/powerlevel10k.git] https://github.com/romkatv/powerlevel10k.git \
   ~/.config/zsh/oh-my-zsh/custom/themes/powerlevel10k
 
 ```
 
-**Plugins (Autosuggestions, Syntax Highlighting, fzf-tab):**
-
 ```bash
-git clone [https://github.com/zsh-users/zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) \
+git clone [https://github.com/zsh-users/zsh-autosuggestions] https://github.com/zsh-users/zsh-autosuggestions \
   ~/.config/zsh/oh-my-zsh/custom/plugins/zsh-autosuggestions
 
-git clone [https://github.com/zsh-users/zsh-syntax-highlighting.git](https://github.com/zsh-users/zsh-syntax-highlighting.git) \
+git clone [https://github.com/zsh-users/zsh-syntax-highlighting.git] https://github.com/zsh-users/zsh-syntax-highlighting.git \
   ~/.config/zsh/oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 
-git clone [https://github.com/Aloxaf/fzf-tab](https://github.com/Aloxaf/fzf-tab) \
+git clone [https://github.com/Aloxaf/fzf-tab] https://github.com/Aloxaf/fzf-tab \
   ~/.config/zsh/oh-my-zsh/custom/plugins/fzf-tab
 
 ```
 
-### 6. Install FZF (Latest Script)
-
-Ensures you have the latest binary features.
-
 ```bash
-git clone --depth 1 [https://github.com/junegunn/fzf](https://github.com/junegunn/fzf) ~/.local/share/fzf
+git clone --depth 1 [https://github.com/junegunn/fzf] https://github.com/junegunn/fzf ~/.local/share/fzf
 ~/.local/share/fzf/install --no-bash --no-fish
 mv ~/.fzf.zsh ~/.config/zsh/
 
 ```
-
----
-
-## 2️⃣ The Configuration File (`.zshrc`)
-
-Run this block to create your production config. **This includes the specific settings to make TAB trigger fzf.**
 
 ```bash
 cat > ~/.config/zsh/.zshrc << 'EOF'
@@ -128,7 +72,7 @@ plugins=(
   git
   zsh-autosuggestions
   zsh-syntax-highlighting
-  fzf-tab 
+  fzf-tab
 )
 
 # --- LOAD OH-MY-ZSH ---
@@ -165,19 +109,13 @@ EOF
 
 ```
 
-**Finalize Shell:**
-
 ```bash
 exec zsh
 # Follow the Powerlevel10k configuration prompts.
 
 ```
 
----
-
-## 3️⃣ System & BIOS Maintenance (Fedora/Ubuntu)
-
-### Update BIOS / Firmware
+## updating the bios
 
 **Warning:** Ensure your laptop is plugged into power before running these.
 
@@ -193,22 +131,18 @@ sudo fwupdmgr update
 
 ```
 
-### Desktop Customization (GNOME)
+## installing gnome tweaks and settings windows buttons (maximize,minimize,close)
 
 ```bash
 # Set Window Controls (Minimize, Maximize, Close)
 gsettings set org.gnome.desktop.wm.preferences button-layout ':minimize,maximize,close'
 
-# Install Tweaks & Extensions Tool
+# Install Tweaks
 sudo dnf install gnome-tweaks -y
 
 ```
 
----
-
-## 4️⃣ Application Provisioning (Fedora)
-
-### System Utilities
+## installing core plugins, git, snap
 
 ```bash
 sudo dnf install dnf-plugins-core git -y
@@ -221,7 +155,7 @@ sudo systemctl enable --now snapd.socket
 
 ```
 
-### Web Browsers
+## installing web browsers (brave, chrome)
 
 ```bash
 # Brave
@@ -232,7 +166,7 @@ sudo dnf install [https://dl.google.com/linux/direct/google-chrome-stable_curren
 
 ```
 
-### Developer Tools
+## installing vs code and postman
 
 ```bash
 # Visual Studio Code
@@ -246,7 +180,7 @@ sudo snap install postman
 
 ```
 
-### Productivity & Tools
+## installing gparted, libreoffice, keepass, snapper, zeal
 
 ```bash
 # Media & Office
@@ -257,6 +191,32 @@ sudo dnf install keepassxc zeal -y
 
 # Disk Management
 sudo dnf install gparted -y
-sudo dnf install snapper snapper-gui -y
 
+# Snapper (alternative for TimeShift)
+sudo dnf install snapper python3-dnf-plugin-snapper
+
+# Snapper GUI
+sudo dnf install btrfs-assistant
+
+```
+
+## Adding an App to Apps Menu for example Zeal
+
+```bash
+nano ~/.local/share/applications/zeal.desktop
+
+```
+
+[Desktop Entry]
+Name=Zeal
+Comment=Offline Documentation Browser
+Exec=zeal
+Icon=zeal
+Type=Application
+Categories=Development;Office;
+Terminal=false
+StartupNotify=true
+
+```bash
+update-desktop-database ~/.local/share/applications
 ```
