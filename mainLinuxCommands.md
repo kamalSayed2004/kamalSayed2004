@@ -61,8 +61,16 @@ source ~/.zshrc
 ## download MesloLGS NF, enter the directory after extraction then do the next command:
 
 ```bash
-sudo mkdir -p /usr/share/fonts/mesloGS
-sudo cp *.ttf /usr/share/fonts/mesloGS
+# Create the directory
+sudo mkdir -p /usr/share/fonts/MesloLGS
+
+# Download the 4 font variants directly into the directory
+sudo curl -L https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf -o /usr/share/fonts/MesloLGS/MesloLGS_NF_Regular.ttf
+sudo curl -L https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf -o /usr/share/fonts/MesloLGS/MesloLGS_NF_Bold.ttf
+sudo curl -L https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf -o /usr/share/fonts/MesloLGS/MesloLGS_NF_Italic.ttf
+sudo curl -L https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf -o /usr/share/fonts/MesloLGS/MesloLGS_NF_Bold_Italic.ttf
+
+# Update the system font cache
 sudo fc-cache -f -v
 
 ```
