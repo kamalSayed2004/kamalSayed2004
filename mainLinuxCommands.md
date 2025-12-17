@@ -137,63 +137,6 @@ alias g='git'
 
 ```
 
-```bash
-cat > ~/.config/zsh/.zshrc << 'EOF'
-# --- SYSTEM PATHS ---
-export ZDOTDIR="$HOME/.config/zsh"
-export ZSH="$ZDOTDIR/oh-my-zsh"
-
-# --- THEME ---
-ZSH_THEME="powerlevel10k/powerlevel10k"
-
-# --- PLUGINS ---
-plugins=(
-  git
-  zsh-autosuggestions
-  zsh-syntax-highlighting
-  fzf-tab
-)
-
-# --- LOAD OH-MY-ZSH ---
-source $ZSH/oh-my-zsh.sh
-
-# --- FZF CONFIGURATION (SYSTEM) ---
-# Load system key bindings if they exist
-[ -f /usr/share/fzf/shell/key-bindings.zsh ] && source /usr/share/fzf/shell/key-bindings.zsh
-[ -f /usr/share/fzf/shell/completion.zsh ] && source /usr/share/fzf/shell/completion.zsh
-
-# --- FZF CONFIGURATION (USER) ---
-# Load local fzf if installed via git
-[ -f "$ZDOTDIR/.fzf.zsh" ] && source "$ZDOTDIR/.fzf.zsh"
-
-# Default Style
-export FZF_DEFAULT_OPTS="--height=40% --layout=reverse --border"
-
-# --- FZF-TAB CONFIGURATION (TAB TRIGGERS) ---
-# Disable default fzf completion trigger to avoid conflicts
-export FZF_COMPLETION_TRIGGER=''
-
-# Force fzf-tab to override standard completion
-# Use 'cat' for preview (fastest). Use 'less' or 'bat' if preferred.
-zstyle ':fzf-tab:complete:*:*' fzf-preview 'cat $realpath'
-zstyle ':fzf-tab:complete:*:*' fzf-flags --height=40% --layout=reverse --border
-
-# Switch result groups using comma and period
-zstyle ':fzf-tab:*' switch-group ',' '.'
-
-# --- FINAL LOAD ---
-# Syntax highlighting must be loaded last
-source $ZSH/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-EOF
-
-```
-
-```bash
-exec zsh
-# Follow the Powerlevel10k configuration prompts.
-
-```
-
 ## updating the bios
 
 **Warning:** Ensure your laptop is plugged into power before running these.
