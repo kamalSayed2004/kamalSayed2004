@@ -3,7 +3,7 @@
 ## installing zsh with utilities
 
 ```bash
-sudo dnf install zsh fzf util-linux-user -y
+sudo dnf install zsh fzf zsh-autosuggestions zsh-syntax-highlighting util-linux-user -y
 
 ```
 
@@ -25,7 +25,46 @@ EOF
 ```
 
 ```bash
-sudo dnf install fira-code-fonts fira-mono-fonts -y
+cat > ~/.config/zsh/.zshrc << 'EOF'
+# --- Plugins & Tools ---
+# Load Syntax Highlighting (must be last in most cases)
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Load Autosuggestions
+source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# Load FZF (Fuzzy Finder)
+source /usr/share/fzf/shell/key-bindings.zsh
+source /usr/share/fzf/shell/completion.zsh
+
+# --- History Configuration ---
+HISTFILE="$ZDOTDIR/.zsh_history"
+HISTSIZE=10000
+SAVEHIST=10000
+setopt appendhistory
+
+# --- Key Bindings ---
+# Use Up/Down arrows to search history based on what you've already typed
+bindkey '^[[A' up-line-or-search
+bindkey '^[[B' down-line-or-search
+
+# --- Aliases ---
+alias ll='ls -alF'
+alias g='git'
+EOF
+```
+
+```bash
+source ~/.zshrc
+```
+
+## download fira fonts, enter the directory after extraction then do the next command:
+
+```bash
+sudo mkdir -p /usr/share/fonts/fira
+sudo cp *.ttf /usr/share/fonts/fira/
+sudo fc-cache -f -v
+
 ```
 
 ```bash
