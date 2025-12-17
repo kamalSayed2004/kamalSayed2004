@@ -228,7 +228,7 @@ sudo systemctl enable --now snapd.socket
 curl -fsS https://dl.brave.com/install.sh | sh
 
 # Google Chrome
-sudo dnf install [https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm](https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm) -y
+sudo dnf install [https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm] https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm -y
 
 ```
 
