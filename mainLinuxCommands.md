@@ -66,20 +66,20 @@ sudo cp *.ttf /usr/share/fonts/fira/
 sudo fc-cache -f -v
 
 ```
+## install ohmyzsh
 
 ```bash
 ZDOTDIR=~/.config/zsh sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" --unattended
 
 ```
+## install powerlevel10k and fzf-tab
 
 ```bash
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.config/zsh/oh-my-zsh/custom/themes/powerlevel10k
+# Clone Powerlevel10k
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.config/zsh/ohmyzsh/custom/themes/powerlevel10k
 
-```
-
-```bash
-git clone https://github.com/Aloxaf/fzf-tab ~/.config/zsh/oh-my-zsh/custom/plugins/fzf-tab
-
+# Clone fzf-tab
+git clone https://github.com/Aloxaf/fzf-tab ~/.config/zsh/ohmyzsh/custom/plugins/fzf-tab
 ```
 
 ## open you configuration directory
@@ -102,13 +102,13 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Load FZF (Fuzzy Finder) system-wide integrations
 source /usr/share/fzf/shell/key-bindings.zsh
-source /usr/share/fzf/shell/completion.zsh
+source /etc/bash_completion.d/fzf
 
 # Load Autosuggestions
 source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Load Syntax Highlighting (Must be the last plugin sourced)
-source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.z>
 
 # --- History Configuration ---
 HISTFILE="$ZDOTDIR/.zsh_history"
@@ -124,8 +124,9 @@ bindkey '^[[B' down-line-or-search
 alias ll='ls -alF'
 alias g='git'
 
-# To customize Powerlevel10k, run `p10k configure` or edit ~/.p10k.zsh.
+# To customize Powerlevel10k, run `p10k configure` or edit ~/.p10k.>
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
 ```
 
 ```bash
