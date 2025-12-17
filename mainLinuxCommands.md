@@ -153,7 +153,7 @@ sudo fwupdmgr update
 
 ```
 
-## installing gnome tweaks and settings windows buttons (maximize,minimize,close)
+## installing gnome tweaks and settings windows buttons (maximize,minimize,close) and scroll speed for trackpad
 
 ```bash
 # Set Window Controls (Minimize, Maximize, Close)
@@ -161,6 +161,9 @@ gsettings set org.gnome.desktop.wm.preferences button-layout ':minimize,maximize
 
 # Install Tweaks
 sudo dnf install gnome-tweaks -y
+
+# Set Scroll Speed
+gsettings set org.gnome.desktop.peripherals.touchpad speed 0.5
 
 ```
 
