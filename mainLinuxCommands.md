@@ -68,7 +68,7 @@ sudo fc-cache -f -v
 ```
 
 ```bash
-git clone [https://github.com/ohmyzsh/ohmyzsh.git] https://github.com/ohmyzsh/ohmyzsh.git ~/.config/zsh/oh-my-zsh
+ZDOTDIR=~/.config/zsh sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" --unattended
 
 ```
 
