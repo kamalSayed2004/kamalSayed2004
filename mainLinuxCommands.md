@@ -73,28 +73,59 @@ ZDOTDIR=~/.config/zsh sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmy
 ```
 
 ```bash
-git clone --depth=1 [https://github.com/romkatv/powerlevel10k.git] https://github.com/romkatv/powerlevel10k.git \
-  ~/.config/zsh/oh-my-zsh/custom/themes/powerlevel10k
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.config/zsh/oh-my-zsh/custom/themes/powerlevel10k
 
 ```
 
 ```bash
-git clone [https://github.com/zsh-users/zsh-autosuggestions] https://github.com/zsh-users/zsh-autosuggestions \
-  ~/.config/zsh/oh-my-zsh/custom/plugins/zsh-autosuggestions
-
-git clone [https://github.com/zsh-users/zsh-syntax-highlighting.git] https://github.com/zsh-users/zsh-syntax-highlighting.git \
-  ~/.config/zsh/oh-my-zsh/custom/plugins/zsh-syntax-highlighting
-
-git clone [https://github.com/Aloxaf/fzf-tab] https://github.com/Aloxaf/fzf-tab \
-  ~/.config/zsh/oh-my-zsh/custom/plugins/fzf-tab
+git clone https://github.com/Aloxaf/fzf-tab ~/.config/zsh/oh-my-zsh/custom/plugins/fzf-tab
 
 ```
 
-```bash
-git clone --depth 1 [https://github.com/junegunn/fzf] https://github.com/junegunn/fzf ~/.local/share/fzf
-~/.local/share/fzf/install --no-bash --no-fish
-mv ~/.fzf.zsh ~/.config/zsh/
+## open you configuration directory
 
+```bash
+nano ~/.config/zsh/.zshrc
+```
+
+## update the theme to powerlevel10k
+
+```bash
+ZSH_THEME="powerlevel10k/powerlevel10k"
+
+```
+
+## source all the plugins by adding this at the end of the file
+
+```bash
+# --- External Plugins & Tools ---
+
+# Load FZF (Fuzzy Finder) system-wide integrations
+source /usr/share/fzf/shell/key-bindings.zsh
+source /usr/share/fzf/shell/completion.zsh
+
+# Load Autosuggestions
+source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# Load Syntax Highlighting (Must be the last plugin sourced)
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# --- History Configuration ---
+HISTFILE="$ZDOTDIR/.zsh_history"
+HISTSIZE=10000
+SAVEHIST=10000
+setopt appendhistory
+
+# --- Key Bindings ---
+bindkey '^[[A' up-line-or-search
+bindkey '^[[B' down-line-or-search
+
+# --- Aliases ---
+alias ll='ls -alF'
+alias g='git'
+
+# To customize Powerlevel10k, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 ```
 
 ```bash
