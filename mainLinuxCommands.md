@@ -319,6 +319,6 @@ wallpaper slideshow
 ## some apps for windows simulation
 
 ```bash
-sudo dnf install lutris wine winetricks
+sudo dnf install lutris wine winetricks steam
 sudo flatpak install net.davidotek.pupgui2
 ```
