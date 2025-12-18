@@ -207,7 +207,7 @@ sudo snap install postman
 
 ```
 
-## installing gparted, libreoffice, keepass, snapper, zeal
+## installing gparted, libreoffice, keepass, snapper, zeal, planify
 
 ```bash
 # Media & Office
@@ -224,6 +224,9 @@ sudo dnf install snapper python3-dnf-plugin-snapper
 
 # Snapper GUI
 sudo dnf install btrfs-assistant
+
+# Planify
+sudo flatpak install io.github.alainm23.planify
 
 ```
 
@@ -311,4 +314,11 @@ vitals
 
 ```bash
 wallpaper slideshow
+```
+
+## some apps for windows simulation
+
+```bash
+sudo dnf install lutris wine winetricks
+sudo flatpak install net.davidotek.pupgui2
 ```
