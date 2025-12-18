@@ -167,7 +167,7 @@ gsettings set org.gnome.desktop.peripherals.touchpad speed 0.5
 
 ```
 
-## installing core plugins, git, snap
+## installing core plugins, git, snap, lsd
 
 ```bash
 sudo dnf install dnf-plugins-core git -y
@@ -177,6 +177,8 @@ sudo dnf install snapd -y
 sudo ln -s /var/lib/snapd/snap /snap
 # Start Snap service
 sudo systemctl enable --now snapd.socket
+
+sudo dnf install lsd
 
 ```
 
@@ -261,4 +263,52 @@ EOL
 ```bash
 sudo dnf makecache
 sudo dnf install antigravity
+```
+
+## install extension manager for gnome
+
+```bash
+sudo flatpak install com.mattjakeman.ExtensionManager
+```
+
+## some plugins for extension manager
+
+```bash
+blur my shell
+```
+
+```bash
+burn my windows
+```
+
+```bash
+caffeine
+```
+
+```bash
+clipboard indicator
+```
+
+```bash
+dash to dock
+```
+
+```bash
+gsconnect
+```
+
+```bash
+just perfection
+```
+
+```bash
+user themes
+```
+
+```bash
+vitals
+```
+
+```bash
+wallpaper slideshow
 ```
