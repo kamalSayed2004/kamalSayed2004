@@ -277,10 +277,6 @@ sudo flatpak install com.mattjakeman.ExtensionManager
 ## some plugins for extension manager
 
 ```bash
-blur my shell
-```
-
-```bash
 burn my windows
 ```
 
@@ -314,6 +310,14 @@ vitals
 
 ```bash
 wallpaper slideshow
+```
+
+```bash
+tiling shell
+```
+
+```bash
+appindicator and kstatusnotifieritem support
 ```
 
 ## some apps for windows simulation
