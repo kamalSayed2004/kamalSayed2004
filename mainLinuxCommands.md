@@ -309,14 +309,6 @@ just perfection
 ```
 
 ```bash
-open bar
-```
-
-```bash
-search light
-```
-
-```bash
 tiling shell
 ```
 
