@@ -293,6 +293,14 @@ clipboard indicator
 ```
 
 ```bash
+compiz alike magic lamb effect
+```
+
+```bash
+compiz windows effect
+```
+
+```bash
 coverflow alt-tab
 ```
 
