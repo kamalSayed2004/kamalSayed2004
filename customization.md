@@ -154,6 +154,7 @@ sudo fwupdmgr update
 ```
 
 ## installing gnome tweaks and settings windows buttons (maximize,minimize,close) and scroll speed for trackpad
+### in gnome tweaks, assign the font to meslogf font after downloading it and don't forget to assing the size of the font
 
 ```bash
 # Set Window Controls (Minimize, Maximize, Close)
