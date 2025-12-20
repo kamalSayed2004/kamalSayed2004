@@ -297,7 +297,7 @@ coverflow alt-tab
 ```
 
 ```bash
-dash2dock animated
+dash to dock
 ```
 
 ```bash
@@ -322,6 +322,12 @@ vitals
 
 ```bash
 wallpaper slideshow
+```
+
+## icons and themes to download
+
+```bash
+bibata modern ice
 ```
 
 
