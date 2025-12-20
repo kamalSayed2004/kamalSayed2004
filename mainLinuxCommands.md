@@ -277,6 +277,10 @@ sudo flatpak install com.mattjakeman.ExtensionManager
 ## some plugins for extension manager
 
 ```bash
+blur my shell
+```
+
+```bash
 burn my windows
 ```
 
@@ -289,7 +293,11 @@ clipboard indicator
 ```
 
 ```bash
-dash to dock
+coverflow alt-tab
+```
+
+```bash
+dash2dock animated
 ```
 
 ```bash
@@ -298,6 +306,18 @@ gsconnect
 
 ```bash
 just perfection
+```
+
+```bash
+open bar
+```
+
+```bash
+search light
+```
+
+```bash
+tiling shell
 ```
 
 ```bash
@@ -312,13 +332,6 @@ vitals
 wallpaper slideshow
 ```
 
-```bash
-tiling shell
-```
-
-```bash
-appindicator and kstatusnotifieritem support
-```
 
 ## some apps for windows simulation
 
