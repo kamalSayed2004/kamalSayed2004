@@ -74,12 +74,14 @@ sudo curl -L https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%
 sudo fc-cache -f -v
 
 ```
+
 ## install ohmyzsh
 
 ```bash
 ZDOTDIR=~/.config/zsh sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" --unattended
 
 ```
+
 ## install powerlevel10k and fzf-tab
 
 ```bash
@@ -154,6 +156,7 @@ sudo fwupdmgr update
 ```
 
 ## installing gnome tweaks and settings windows buttons (maximize,minimize,close) and scroll speed for trackpad
+
 ### in gnome tweaks, assign the font to meslogf font after downloading it and don't forget to assing the size of the font
 
 ```bash
@@ -269,6 +272,12 @@ sudo dnf makecache
 sudo dnf install antigravity
 ```
 
+## install podman (docker suggested app for fedora)
+
+```bash
+sudo dnf install podman podman-compose
+```
+
 ## install extension manager for gnome
 
 ```bash
@@ -339,10 +348,27 @@ wallpaper slideshow
 bibata modern ice
 ```
 
-
 ## some apps for windows simulation
 
 ```bash
 sudo dnf install lutris wine winetricks steam
 sudo flatpak install net.davidotek.pupgui2
 ```
+
+## install mangayomi v0.6.75 works fine (0.6.85 doesn't work correctly yet)
+
+install the .rpm
+chmod +X mangayomi.rpm
+sudo dnf install ./mangayomi
+
+// repos to add
+https://kodjodevf.github.io/mangayomi-extensions/index.json
+https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json
+https://raw.githubusercontent.com/Swakshan/mangayomi-extensions/main/index.json
+manga
+https://m2k3a.github.io/mangayomi-extensions/anime_index.json
+https://raw.githubusercontent.com/yuzono/anime-repo/repo/index.min.json
+https://kohiden.xyz/Kohi-den/extensions/raw/branch/main/index.min.json
+anime
+https://kodjodevf.github.io/mangayomi-extensions/novel_index.json
+https://m2k3a.github.io/mangayomi-extensions/novel_index.json
