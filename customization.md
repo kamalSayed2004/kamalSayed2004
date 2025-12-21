@@ -365,10 +365,14 @@ sudo dnf install ./mangayomi
 https://kodjodevf.github.io/mangayomi-extensions/index.json
 https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json
 https://raw.githubusercontent.com/Swakshan/mangayomi-extensions/main/index.json
+https://raw.githubusercontent.com/yuzono/manga-repo/repo/index.min.json
+https://raw.githubusercontent.com/Kareadita/tach-extension/repo/index.min.json
+https://raw.githubusercontent.com/Suwayomi/tachiyomi-extension/repo/index.min.json
 manga
 https://m2k3a.github.io/mangayomi-extensions/anime_index.json
 https://raw.githubusercontent.com/yuzono/anime-repo/repo/index.min.json
 https://kohiden.xyz/Kohi-den/extensions/raw/branch/main/index.min.json
+https://raw.githubusercontent.com/Secozzi/aniyomi-extensions/refs/heads/repo/index.min.json
 anime
 https://kodjodevf.github.io/mangayomi-extensions/novel_index.json
 https://m2k3a.github.io/mangayomi-extensions/novel_index.json
