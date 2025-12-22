@@ -361,18 +361,57 @@ install the .rpm
 chmod +X mangayomi.rpm
 sudo dnf install ./mangayomi
 
-// repos to add
+
+### manga
+
+```bash
 https://kodjodevf.github.io/mangayomi-extensions/index.json
+```
+
+```bash
 https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json
+```
+
+```bash
 https://raw.githubusercontent.com/Swakshan/mangayomi-extensions/main/index.json
+```
+
+```bash
 https://raw.githubusercontent.com/yuzono/manga-repo/repo/index.min.json
+```
+
+```bash
 https://raw.githubusercontent.com/Kareadita/tach-extension/repo/index.min.json
+```
+
+```bash
 https://raw.githubusercontent.com/Suwayomi/tachiyomi-extension/repo/index.min.json
-manga
+```
+
+### anime
+
+```bash
 https://m2k3a.github.io/mangayomi-extensions/anime_index.json
+```
+
+```bash
 https://raw.githubusercontent.com/yuzono/anime-repo/repo/index.min.json
+```
+
+```bash
 https://kohiden.xyz/Kohi-den/extensions/raw/branch/main/index.min.json
+```
+
+```bash
 https://raw.githubusercontent.com/Secozzi/aniyomi-extensions/refs/heads/repo/index.min.json
-anime
+```
+
+### novel
+
+```bash
 https://kodjodevf.github.io/mangayomi-extensions/novel_index.json
+```
+
+```bash
 https://m2k3a.github.io/mangayomi-extensions/novel_index.json
+```
