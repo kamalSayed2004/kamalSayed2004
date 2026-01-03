@@ -5,11 +5,18 @@ on:
     - cron: "0 0 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
+      - name: Create dist directory
+        run: mkdir -p dist
+
       - name: Generate Snake
         uses: Platane/snk@v3
         with:
@@ -18,14 +25,25 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
       - name: Generate Pacman
         uses: abozanona/pacman-contribution-graph@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           github_user_name: kamalSayed2004
+
       - name: Move Pacman to dist
         run: |
-          mv pacman-contribution-graph.svg dist/pacman.svg
+          # Move main pacman file
+          if [ -f "pacman-contribution-graph.svg" ]; then
+            mv pacman-contribution-graph.svg dist/pacman.svg
+          fi
+
+          # Move dark pacman file if it exists
+          if [ -f "pacman-contribution-graph-dark.svg" ]; then
+            mv pacman-contribution-graph-dark.svg dist/pacman-dark.svg
+          fi
+
       - uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
