@@ -1,120 +1,83 @@
 <div align="center">
+  
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=20C20E&center=true&vCenter=true&width=435&lines=AI+Graduate+%F0%9F%8E%93;Front-End+Engineer+%F0%9F%92%BB;Aspiring+Full-Stack+Developer+%F0%9F%9A%80;Building+Intelligent+Web+Solutions" alt="Typing SVG" />
 
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=20C20E&center=true&vCenter=true&width=435&lines=Front-End+Engineer+%F0%9F%92%BB;CS+Student+%40+Bfcai+University+%F0%9F%8E%93;Aspiring+Full-Stack+Developer+%F0%9F%9A%80;Building+Robust+Web+Solutions" alt="Typing SVG" />
+  <h2 align="center">Hi there! I am Kamal Sayed 👋</h2>
 
   <p align="center">
-    👋 <b>Hi there! I am Kamal Sayed.</b><br>
-    I am a Computer Science student at <b>Bfcai University</b> with <b>3+ years of experience</b> in Front-End Engineering.<br>
-    Passionate about bridging the gap between intuitive UI and powerful server-side logic.
+    <b>AI Graduate</b> | <b>Front-End Engineer</b> | <b>Aspiring Full-Stack Developer</b>
+    <br>
+    <i>Bridging the gap between intelligent algorithms and robust, scalable web applications.</i>
   </p>
 
   <p align="center">
-    I have built a diverse range of projects across several domains, including economic, personal, and medical applications. My goal is to expand my skills into Back-End development to become a comprehensive Full-Stack Developer.
+    <a href="https://www.facebook.com/kamalsayedkamal2004"><img src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white" alt="Facebook"/></a>
+    <a href="https://www.linkedin.com/in/kamal-sayed-82ba2b335"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+    <a href="mailto:kk1412ec4869@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+    <a href="https://kamalsayed2004.github.io/portfolio/"><img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
   </p>
-
-  <h3>Connect with me</h3>
-
-  <p align="center">
-    <a href="https://discord.gg/kamal2004_"><img src="https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white" alt="Discord"/></a>
-    <a href="https://facebook.com/kamalsayedkamal2004"><img src="https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white" alt="Facebook"/></a>
-    <a href="https://linkedin.com/in/kamal-sayed-82ba2b335"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-    <a href="mailto:kk1412ec4869@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" alt="Email"/></a>
-  </p>
-
 </div>
-
----
-
-### 💻 Tech Stack
-
-<div align="center">
-
-**Front-End & UI**<br>
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB)
-![Next JS](https://img.shields.io/badge/Next-black?style=flat&logo=next.js&logoColor=white)
-![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=flat&logo=redux&logoColor=white)
-![React Router](https://img.shields.io/badge/React_Router-CA4245?style=flat&logo=react-router&logoColor=white)
-![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-%23EC5990.svg?style=flat&logo=reacthookform&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=flat&logo=tailwind-css&logoColor=white)
-![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=flat&logo=SASS&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=flat&logo=bootstrap&logoColor=white)
-![Semantic UI React](https://img.shields.io/badge/Semantic%20UI%20React-%2335BDB2.svg?style=flat&logo=SemanticUIReact&logoColor=white)
-![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=flat&logo=vite&logoColor=white)
 
 <br>
 
-**Back-End & Data Science**<br>
-![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54)
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat&logo=node.js&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi)
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=flat&logo=mysql&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-black?style=flat&logo=JSON%20web%20tokens)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=flat&logo=TensorFlow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=flat&logo=Keras&logoColor=white)
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat&logo=scikit-learn&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=flat&logo=Matplotlib&logoColor=black)
+### 🛠️ Technical Arsenal
+
+<div align="center">
+
+|                                                **Front-End & UI**                                                |                                                   **Back-End & AI**                                                    |                                                      **Tools & DevOps**                                                       |
+| :--------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------: |
+|       ![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB)       |             ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54)              |                  ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat&logo=git&logoColor=white)                   |
+|         ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=flat&logo=redux&logoColor=white)         |                    ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi)                     |              ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white)              |
+|   ![Js](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)    |    ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=flat&logo=TensorFlow&logoColor=white)     | ![VS Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d4.svg?style=flat&logo=visual-studio-code&logoColor=white) |
+| ![Tailwind](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=flat&logo=tailwind-css&logoColor=white) |            ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=flat&logo=Keras&logoColor=white)            |                ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)                |
+|          ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white)           |            ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white)            |               ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat&logo=figma&logoColor=white)                |
+|   ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=flat&logo=bootstrap&logoColor=white)   |          ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white)           |                                                                                                                               |
+|           ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=flat&logo=SASS&logoColor=white)            | ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat&logo=scikit-learn&logoColor=white) |                                                                                                                               |
+
+</div>
 
 <br>
 
-**Tools & DevOps**<br>
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white)
-![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=flat&logo=gnu-bash&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=Cloudflare&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
-![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=flat&logo=npm&logoColor=white)
-![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=flat&logo=adobe%20photoshop&logoColor=white)
-![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=flat&logo=markdown&logoColor=white)
-
-</div>
-
----
-
-### 📊 GitHub Analytics
+### 📊 GitHub Activity
 
 <div align="center">
-
-<a href="https://github.com/kamalSayed2004">
-  <img height="180" src="https://github-readme-stats-eight-theta.vercel.app/api?username=kamalSayed2004&show_icons=true&theme=dark&hide_border=true&count_private=false" />
-  <img height="180" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=kamalSayed2004&layout=compact&theme=dark&hide_border=true" />
-</a>
-
-<br><br>
-
-<img src="https://nirzak-streak-stats.vercel.app/?user=kamalSayed2004&theme=dark&hide_border=true" alt="Streak Stats" />
-
-<br><br>
-
-<img src="https://github-contributor-stats.vercel.app/api?username=kamalSayed2004&limit=5&theme=dark&combine_all_yearly_contributions=true" alt="Top Contributed Repo" />
-
+  <img height="160" src="https://github-readme-stats-eight-theta.vercel.app/api?username=kamalSayed2004&show_icons=true&theme=default&hide_border=true&count_private=false&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff" />
+  <img height="160" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=kamalSayed2004&layout=compact&theme=default&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" />
 </div>
 
----
-
-### ✍️ Random Dev Quote
+<br>
 
 <div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
-</div>
-
-<br/>
-
-<div align="center">
-  <a href="https://visitcount.itsvg.in">
-    <img src="https://komarev.com/ghpvc/?username=kamalSayed2004&style=flat-square&color=blue" alt="Visitor Count" />
-  </a>
+  <img src="https://raw.githubusercontent.com/kamalSayed2004/kamalSayed2004/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
   <br>
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" alt="Coding Animation">
+  <img src="https://raw.githubusercontent.com/kamalSayed2004/kamalSayed2004/output/pacman.svg" alt="Pacman Animation" />
 </div>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/pacman-contribution-graph.svg">
-</picture>
+<br>
+
+### 💡 Core Competencies
+
+|         **Domain**          | **Deep Dive**                                                                               |
+| :-------------------------: | :------------------------------------------------------------------------------------------ |
+| **Artificial Intelligence** | Deep Learning (CNNs, RNNs, Transfer Learning), ML (Supervised/Unsupervised), Data Pipelines |
+|    **Computer Science**     | Data Structures (Trees, Vectors, Queues), Algorithms (DP, Divide & Conquer), OOP Principles |
+| **Full-Stack Engineering**  | MVC Architecture, RESTful APIs, Secure Auth (OAuth/JWT), Database Modeling                  |
+
+<br>
+
+### 🌱 Evolution Roadmap
+
+I am continuously expanding my skillset to build enterprise-grade applications.
+
+| Focus Area           | Technology                                                                                                     | Goal                                           |
+| :------------------- | :------------------------------------------------------------------------------------------------------------- | :--------------------------------------------- |
+| **Advanced Backend** | <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" />         | Modular architecture & dependency injection.   |
+| **Database**         | <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" /> | Complex queries, indexing, and data integrity. |
+| **DevOps**           | **Docker & CI/CD**                                                                                             | Containerization and automated pipelines.      |
+| **System Design**    | **Microservices**                                                                                              | Decoupling applications for scalability.       |
+
+<br>
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=kamalSayed2004&style=flat-square&color=blue" alt="Visitor Count" />
+</div>
