@@ -76,16 +76,6 @@
 
 ---
 
-### 🏆 Achievements
-
-<div align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=kamalSayed2004&theme=radical&no-frame=true&no-bg=true" alt="Trophies" />
-  </a>
-</div>
-
----
-
 ### 📊 GitHub Analytics
 
 <div align="center">
