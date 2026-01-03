@@ -91,10 +91,6 @@
 
 <br><br>
 
-<img src="https://raw.githubusercontent.com/kamalSayed2004/kamalSayed2004/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
-
-<br><br>
-
 <img src="https://github-contributor-stats.vercel.app/api?username=kamalSayed2004&limit=5&theme=dark&combine_all_yearly_contributions=true" alt="Top Contributed Repo" />
 
 </div>
