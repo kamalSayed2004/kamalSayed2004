@@ -51,17 +51,11 @@
 
 <p align="center">Enjoy these fun animations of a snake and Pacman eating through my GitHub contributions graph!</p>
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kamalSayed2004/kamalSayed2004/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kamalSayed2004/kamalSayed2004/output/github-contribution-grid-snake.svg" />
-    <img alt="Snake Animation" src="https://raw.githubusercontent.com/kamalSayed2004/kamalSayed2004/output/github-contribution-grid-snake.svg" />
-  </picture>
-  <br>
-  <img src="https://raw.githubusercontent.com/kamalSayed2004/kamalSayed2004/output/pacman.svg" alt="Pacman Animation" />
-  <br>
-  <img src="https://raw.githubusercontent.com/kamalSayed2004/kamalSayed2004/output/github-contribution-grid-snake.gif" alt="Snake GIF Animation" />
-</div>
+<p align="center">
+  <img src="https://img.shields.io/github/actions/workflow/status/kamalSayed2004/kamalSayed2004/generate-animations.yml?label=Generate%20Animations" alt="Generate Animations Workflow" />
+</p>
+
+<p align="center"><em>These animations are auto-generated daily via <a href=".github/workflows/generate-animations.yml">GitHub Actions</a>.</em></p>
 
 <br>
 
