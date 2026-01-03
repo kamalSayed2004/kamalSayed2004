@@ -49,15 +49,21 @@
 
 ### 🎮 Animated Contributions
 
-<p align="center">Enjoy these fun animations of a snake and Pacman eating through my GitHub contributions graph!</p>
+###
 
-<p align="center">
-  <img src="https://img.shields.io/github/actions/workflow/status/kamalSayed2004/kamalSayed2004/generate-animations.yml?label=Generate%20Animations" alt="Generate Animations Workflow" />
-</p>
+<br clear="both">
 
-<p align="center"><em>These animations are auto-generated daily via <a href=".github/workflows/generate-animations.yml">GitHub Actions</a>.</em></p>
+<img src="https://raw.githubusercontent.com/kamalSayed2004/kamalSayed2004/output/snake.svg" alt="Snake animation" />
 
-<br>
+###
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kamalSayed2004/kamalSayed2004/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kamalSayed2004/kamalSayed2004/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/kamalSayed2004/kamalSayed2004/output/pacman-contribution-graph.svg">
+</picture>
+
+###
 
 ### 💡 Core Competencies
 
